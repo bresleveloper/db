@@ -1,0 +1,8 @@
+1. html template - border
+2. calc X 4
+3. send results to results area
+4. build exercise string
+5. build new row html, including buttons
+6. add  new row html to table
+7. implement edit
+8. implement delete

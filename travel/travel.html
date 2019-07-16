@@ -8,19 +8,32 @@
         <div class="flex-col">
             <div class="flex">
                 <div id="travel-list" class="screen">
-                    <div class="travel-item travel-header">
+                    <div class="travel-item travel-header item header">
+                        <div class="travel-id">קוד נסיעה</div>
                         <div class="travel-name">שם נסיעה</div>
                         <div class="travel-price">מחיר</div>
                     </div>
                 </div>
                 <div id="travel-reg" class="screen">
-                    name:<input/><br>name:<input/><br>name:<input/><br>name:<input/><br>
+                    Name:<input/><br>
+                    personalID:<input/><br>
+                    TravelId:<input/><br>
+                    passengers:<input/><br>
+                    <button type="button">send</button>
                 </div>
             </div>
             <div class="flex">
                 <div id="reg-list" class="screen">
-                    mr ploni to travel zirich<br>mr ploni to travel zirich<br>mr ploni to travel zirich<br>mr ploni to travel zirich<br>mr ploni to travel zirich<br>
+                    <div class="costumer-item item header">
+                        <div class="c-id">Id</div>
+                        <div class="c-name">Name</div>
+                        <div class="c-personalID">personalID</div>
+                        <div class="c-TravelId">TravelId</div>
+                        <div class="c-passengers">passengers</div>
+                        <div class="c-total">Total</div>
+                    </div>
                 </div>
+
                 <div id="travel-lookup" class="screen">
                     your name<input><br>
                     mr ploni to travel zirich<br>mr ploni to travel zirich<br>
@@ -29,5 +42,7 @@
         </div>
 
         <script src="travel.js"></script>
+        <script src="customers.js"></script>
+        <script src="register.js"></script>
     </body>
 </html>

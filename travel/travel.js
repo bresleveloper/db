@@ -21,7 +21,8 @@ Travel.getTravelsCount = function getTravelsCount(){
     return db.travelList.length;
 }
 Travel.buildTravelHtml = function buildTravelHtml(travelObject){
-    return `<div class="travel-item" travel-id="${travelObject.Id}">
+    return `<div class="travel-item item" travel-id="${travelObject.Id}">
+        <div class="travel-id">${travelObject.Id}</div>
         <div class="travel-name">${travelObject.Name}</div>
         <div class="travel-price">${travelObject.Price}</div>
     </div>`;
@@ -30,8 +31,10 @@ Travel.buildTravelHtml = function buildTravelHtml(travelObject){
 //var t1 = new Travel('hiland blue', 100)
 //var t2 = new Travel('hiland green', 100)
 
+var t4 = new Travel('hiland', 100)
+db.travelList.push(t4)
 
-db.travelList.push(new Travel('hiland', 100))
+
 db.travelList.push(new Travel('london', 300))
 db.travelList.push(new Travel('miron', 200))
 db.travelList.push(new Travel('Israel', 0))

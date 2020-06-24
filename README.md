@@ -3,6 +3,6 @@
 
 ## Folders
 
-* ajax Folder - for html templates for ajax
+* ajax Folder - for stuff to ajax
 * super calc - calculator play example
 * travel - travel order example
